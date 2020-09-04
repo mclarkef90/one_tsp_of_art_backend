@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2020_08_01_124918) do
     t.string "year"
     t.string "image_url"
     t.text "description"
+    t.integer "likes"
     t.bigint "artist_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

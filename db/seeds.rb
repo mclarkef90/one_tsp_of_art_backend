@@ -27,12 +27,14 @@ Artist.create!([
   Artwork.create!([
     {
       title: "The Kiss",
+      likes: 0,
       year: "1907",
       image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Gustav_Klimt_016.jpg",
       description: "Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau. Klimt depicts his subjects as mythical figures made modern by luxuriant surfaces of up-to-the moment graphic motifs. The work is a highpoint of the artist’s Golden Phase between 1899 and 1910 when he often used gold leaf—a technique inspired by a 1903 trip to the Basilica di San Vitale in Ravenna, Italy, where he saw the church’s famed Byzantine mosaics.",
       artist_id: 2},
       {
         title: "Les Demoiselles d’Avignon",
+        likes: 0,
         year: "1907",
         image_url: "https://upload.wikimedia.org/wikipedia/en/4/4c/Les_Demoiselles_d%27Avignon.jpg",
         description: "The ur-canvas of 20th-century art, Les Demoiselles d’Avignon ushered in the modern era by decisively breaking with the representational tradition of Western painting, incorporating allusions to the African masks that Picasso had seen in Paris's ethnographic museum at the Palais du Trocadro. Its compositional DNA also includes El Greco’s The Vision of Saint John (1608–14), now hanging in the Metropolitan Museum of Art. The women being depicted are actually prostitutes in a brothel in the artist's native Barcelona.",
@@ -40,6 +42,7 @@ Artist.create!([
       },
       {
         title: "Ariadne",
+        likes: 0,
         year: "1913",
         image_url: "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Giorgio-de-Chirico-Ariadne-1913.jpg",
         description: "A statue of a slumbering Ariadne is in the foreground of this image of a desolate public square, rendered in de Chirico’s distinctive simple and broad forms. According to the Greek myth, Theseus abandoned his lover Ariadne on the island of Naxos while she slept. Ariadne acquired great personal symbolic meaning for de Chirico after he moved to Paris in 1911 and entered a period of isolation and loneliness. A dreamy escape into the classical past, the painting also serves as a retreat into de Chirico’s memories of his childhood in Greece.",

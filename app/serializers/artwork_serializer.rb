@@ -1,5 +1,5 @@
 class ArtworkSerializer < ActiveModel::Serializer
-  attributes :id, :title, :year, :image_url, :description
+  attributes :id, :title, :year, :image_url, :description, :likes
   has_one :artist
 
   def initialize(artwork_obj)
@@ -12,5 +12,5 @@ class ArtworkSerializer < ActiveModel::Serializer
       except: [:created_at, :updated_at]
     })
   end
-  
+
 end
